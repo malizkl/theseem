@@ -1,46 +1,28 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Image from 'next/image'
-import React from 'react';
-import Link from "next/link"
 
 
 
 
-
-
-
-
-export default function Home() {
-  return (
-    
-
-      <div className="site-container">
+function ProductPage(){
+    return (
+    <div className="site-container">
 
         <div className="space-y-4">
 
             <h1 className="text-2xl text-gray-500 flex items-center justify-items-center justify-center">
-                FEATURED COLLECTION
+                ALL PRODUCTS
             </h1>
-
-       
-
-
-            
-
 
             <div className={styles.grid}>
 
 
-         
-
-
+            
             <a className={styles.card}>
             <img src="https://cdn.dsmcdn.com/mnresize/400/-/ty269/product/media/images/20211211/15/8879043/335167559/1/1_org_zoom.jpg" alt=" "/>
 
             
             <p className="py-2">Yılbaşı Pooh Nakışlı Oversize Hoodie</p>
-            </a>
+          </a>
 
 
           <a className={styles.card}>
@@ -95,13 +77,13 @@ export default function Home() {
 
 
           <a className={styles.card}>
-                <img  src="https://cdn.dsmcdn.com/mnresize/400/-/ty269/product/media/images/20211211/11/8740677/335010686/1/1_org_zoom.jpg" alt=" "/>
+                            <img  src="https://cdn.dsmcdn.com/mnresize/400/-/ty269/product/media/images/20211211/11/8740677/335010686/1/1_org_zoom.jpg" alt=" "/>
 
             <p className="py-2">Mickey Mouse Nakışlı Oversize Hoodie</p>
           </a>
 
           <a className={styles.card}>
-             <img  src="https://cdn.dsmcdn.com/mnresize/400/-/ty269/product/media/images/20211211/11/8737087/335005926/1/1_org_zoom.jpg" alt=" "/>
+                            <img  src="https://cdn.dsmcdn.com/mnresize/400/-/ty269/product/media/images/20211211/11/8737087/335005926/1/1_org_zoom.jpg" alt=" "/>
 
             <p className="py-2">
             Appa Avatar Anime Nakışlı Oversize Hoodie
@@ -125,7 +107,6 @@ export default function Home() {
 
 
 
-
           
 
 
@@ -138,26 +119,16 @@ export default function Home() {
 
 
 
+
         </div>
-        {/* WhatsApp icon */}
-
-        
-
-       
-      
-      </div>
 
 
 
 
-  )
 
 
+    </div>
 
-
+    )
 }
-
-
-
-
-
+export default ProductPage
